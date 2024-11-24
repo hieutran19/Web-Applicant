@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color_black: #000000;
+  --color_black1: #151515;
+  --color_white: #fff;
+  --color_white1: #fbfbfb;
+  --color_gray: rgba(61, 43, 31, 0.502);
+  --color_gray1: #999;
+  --color_green: #24d496;
+  --color_green1: #154244;
+  --color_green2: #3cc337;
+  --color_blue: #0766ad;
+  --color_red: #ef4040;
+  --color_red1: #ff0000;
+  --color_purple: #4953a2;
+  --color_orange: #ef9631;
+  --color_yellow: #ffd700;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color_blue);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+button:focus,
+button:focus-visible {
+  outline: none;
+}
+
+a,
+p,
+li,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}

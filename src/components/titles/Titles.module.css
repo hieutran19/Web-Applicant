@@ -1,0 +1,83 @@
+.titles {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 40px;
+}
+.fonSize_16 {
+  font-size: 16px;
+  line-height: 20px;
+}
+.fonSize_18 {
+  font-size: 18px;
+  line-height: 22px;
+}
+.fonSize_22 {
+  font-size: 22px;
+  line-height: 27px;
+}
+.fonSize_25 {
+  font-size: 25px;
+  line-height: 30px;
+}
+.fonSize_27 {
+  font-size: 27px;
+  line-height: 32px;
+}
+.fonSize_30 {
+  font-size: 30px;
+  line-height: 35px;
+}
+.fonSize_32 {
+  font-size: 32px;
+  line-height: 37px;
+}
+.fonSize_35 {
+  font-size: 35px;
+  line-height: 40px;
+}
+.fonSize_37 {
+  font-size: 37px;
+  line-height: 42px;
+}
+.fonSize_40 {
+  font-size: 40px;
+  line-height: 45px;
+}
+.fonSize_42 {
+  font-size: 42px;
+  line-height: 47px;
+}
+.fonSize_45 {
+  font-size: 45px;
+  line-height: 50px;
+}
+.fonSize_47 {
+  font-size: 47px;
+  line-height: 52px;
+}
+.fonSize_50 {
+  font-size: 50px;
+  line-height: 55px;
+}
+/* --------------fontWeight--------------- */
+.fontWeight_300 {
+  font-weight: 300;
+}
+.fontWeight_400 {
+  font-weight: 400;
+}
+.fontWeight_500 {
+  font-weight: 500;
+}
+.fontWeight_600 {
+  font-weight: 600;
+}
+.fontWeight_700 {
+  font-weight: 700;
+}
+.fontWeight_800 {
+  font-weight: 900;
+}
+.fontWeight_900 {
+  font-weight: 900;
+}

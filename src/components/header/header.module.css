@@ -1,0 +1,12 @@
+.headers {
+  height: 50px;
+  background: var(--color_green1);
+}
+
+.container {
+  display: flex;
+  display: grid;
+  grid-template-columns: 100px auto 100px;
+  align-items: center;
+  height: 50px;
+}

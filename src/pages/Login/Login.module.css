@@ -1,0 +1,73 @@
+.loginWrapper {
+  height: calc(100vh - 41px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forms {
+  width: 400px;
+  max-width: 100%;
+  background: #fff;
+  margin: auto;
+  border-radius: 20px;
+  padding: 30px 20px 15px 20px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  position: relative;
+}
+
+.formHeading {
+  text-align: center;
+}
+
+.formHeading h2 {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.contentBox {
+
+  gap: 30px;
+}
+
+.imgBox img {
+  width: 230px;
+  object-fit: contain;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.formBox {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.loginInput label {
+  font-size: 16px !important;
+}
+
+.loginInput input {
+  padding: 8px 10px !important;
+  font-size: 16px !important;
+}
+
+.buttonBox {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  padding: 10px 0;
+  flex-direction: column;
+}
+
+.buttonBox button {
+  min-width: 120px !important;
+}
+
+@media (max-width: 767px) {
+  .imgBox {
+    display: none;
+  }
+}

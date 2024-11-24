@@ -1,0 +1,15 @@
+.backs {
+  width: auto !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: large;
+}
+.backs span {
+  color: var(--color_blue);
+}
+.backs svg path {
+  color: var(--color_blue);
+}

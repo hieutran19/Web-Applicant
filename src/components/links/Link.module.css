@@ -1,0 +1,17 @@
+.links {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: var(--color_green);
+  border-radius: 16px;
+  color: var(--color_white);
+  font-size: 16px;
+}
+
+.icon {
+  color: var(--color_white);
+}
+
+.links:hover {
+  color: var(--color_white);
+  opacity: 0.9;
+}

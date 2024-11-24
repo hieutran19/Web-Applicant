@@ -1,0 +1,45 @@
+.container {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 20px;
+}
+.employee {
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.basic {
+  margin: 50px 0;
+  position: relative;
+  border-radius: 20px;
+  padding: 40px 20px 40px 20px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.information {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px 50px;
+}
+.titles {
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  background: var(--color_white);
+}
+
+/* Item */
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.item label {
+  min-width: 160px;
+  color: var(--color_black1);
+}
+.boldLabel {
+  font-weight: bold;
+}

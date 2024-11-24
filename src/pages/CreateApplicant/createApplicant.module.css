@@ -1,0 +1,44 @@
+.container {
+  padding-left: 150px;
+  padding-right: 150px !important;
+  padding-top: 20px;
+}
+.basic {
+  border-radius: 20px;
+  padding: 40px 20px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px 50px;
+}
+
+.information {
+  margin-bottom: 50px;
+}
+
+.titles {
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  background: var(--color_white);
+}
+
+.boldLabel {
+  font-weight: bold;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.item {
+  width: 100%;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}

@@ -1,0 +1,6 @@
+.menuBar {
+  margin-bottom: 4px;
+}
+.menuBar * {
+  font-size: 15px;
+}

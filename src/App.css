@@ -1,0 +1,135 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 112px);
+}
+
+.content {
+  flex: 1;
+}
+/* Layout */
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  height: calc(100vh - 100px);
+  margin-top: 60px;
+  background-color: var(--color_white);
+}
+
+/* table */
+
+.table-icon-box {
+  display: flex;
+  gap: 6px;
+}
+
+.table-icon {
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: var(--color_blue);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-icon:hover {
+  opacity: 0.8;
+}
+/* Modal */
+.modal {
+  margin: 0;
+  padding: 0;
+}
+
+.buttonBox {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  padding: 15px 12px 0px 12px;
+}
+
+.ant-modal .ant-modal-content {
+  padding: 0px;
+  padding-bottom: 10px;
+}
+
+.ant-modal-header {
+  overflow: hidden;
+  background-color: var(--color_green1) !important;
+  margin-bottom: 0px;
+}
+.ant-modal-close-x .anticon svg {
+  color: var(--color_white);
+}
+.ant-modal-title {
+  background-color: var(--color_green01) !important;
+
+  color: var(--color_white) !important;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  font-size: 18px !important;
+}
+
+.ant-modal-close {
+  top: 8px !important;
+}
+:where(.css-dev-only-do-not-override-1gwfwyx).ant-btn-primary {
+  color: #fff;
+  background-color: var(--color_green) !important;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}
+.ant-modal-footer {
+  margin-right: 10px;
+}
+
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+.ant-modal-title {
+  padding-left: 15px;
+}
+.ant-input-search-button {
+  padding: 10px;
+  height: 38px !important;
+  border-start-end-radius: 16px !important;
+  border-end-end-radius: 16px !important;
+}
+
+.ant-input-search-button svg {
+  width: 20px;
+  height: 20px;
+}
+
+.ant-input-search .ant-input {
+  padding: 6px 12px;
+  border-start-start-radius: 16px;
+  border-end-start-radius: 16px;
+  height: 38px;
+}
+/* .bOmZtP div:first-child {
+  white-space:unset !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+} */
+
+.ant-select-selection-search {
+  font-size: 14px;
+}
+.ant-picker-input > input {
+  color: #495057 !important;
+  cursor: auto !important;
+}
+.ant-picker-input {
+  cursor: auto !important;
+}

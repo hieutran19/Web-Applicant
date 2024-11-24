@@ -1,0 +1,41 @@
+.formEducation label {
+  font-size: 15px;
+}
+
+.formEducation {
+  padding: 5px 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 30px;
+}
+
+.itemFull {
+  grid-column: 1 / 2 span;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.itemFullBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.twoItem {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px 50px;
+}
+
+.butonAction {
+  display: flex;
+  gap: 4px;
+}
+
+.butonAction svg {
+  font-size: 20px;
+}
+.selectApi{
+  width:400px !important;
+}

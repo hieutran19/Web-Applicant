@@ -1,0 +1,32 @@
+.menus ul {
+  gap: 25px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.menus {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.menus ul li {
+  cursor: pointer;
+  color: var(--color_white);
+  font-size: 16px;
+}
+.menus ul li a {
+  color: var(--color_white);
+}
+.login {
+  float: right;
+}
+.login a {
+  color: var(--color_white);
+}
+
+.menuItem.active a {
+  color: var(--color_orange);
+}

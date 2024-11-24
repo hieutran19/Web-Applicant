@@ -1,0 +1,40 @@
+.formContract label {
+    font-size: 16px;
+  }
+  
+  .formContract {
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 30px;
+  }
+  
+  .itemFull {
+    grid-column: 1 / 2 span;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .itemFullBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 30px;
+  }
+  
+  .twoItem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 50px;
+  }
+  
+
+  .boxbutton{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px; 
+  }
+.fullWidth{
+  width: 100%;
+  max-width: calc(100% - 0px) !important;
+}

@@ -1,0 +1,47 @@
+.button {
+  border-radius: 16px;
+  padding: 8px 20px;
+  display: flex;
+  height: unset;
+  position: relative;
+  transition: none;
+  min-width: 100px;
+  border: none !important;
+}
+
+.button span {
+  font-size: 16px;
+}
+
+.button.success:hover,
+.button.success {
+  color: var(--color_white) !important;
+  background-color: var(--color_green) !important;
+}
+
+.button.primary:hover,
+.button.primary {
+  color: var(--color_white) !important;
+  background-color: var(--color_blue) !important;
+}
+
+.button.danger:hover,
+.button.danger {
+  color: var(--color_white) !important;
+  background-color: var(--color_red) !important;
+}
+
+.button.cancel:hover,
+.button.cancel {
+  color: var(--color_white) !important;
+  background-color: var(--color_gray) !important;
+}
+.button.pause:hover,
+.button.pause {
+  color: var(--color_white) !important;
+  background-color: var(  --color_orange) !important;
+}
+
+.button:hover {
+  opacity: 0.9 !important;
+}

@@ -1,0 +1,48 @@
+
+
+.invalid {
+  border: 1px solid red;
+}
+
+.errorText {
+  color: red;
+  margin-top: 4px;
+  padding-top: 5px;
+  font-size: 14px !important;
+}
+
+.requiredLabel {
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+
+.asterisk {
+  color: red;
+  margin-right: 4px;
+}
+.textarea > p {
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.boxbutton {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.schedule {
+  padding: 10px 15px;
+  
+}
+.schedulecontainer {
+  display: flex;
+  justify-content: space-between; /* Căn đều giữa 2 bên lề */
+  gap: 20px; /* Khoảng cách giữa DatePicker và TimePicker */
+  align-items: center;
+  padding-bottom: 15px;
+}
+.selects > div {
+  width: 100%;
+  max-width: calc(100% - px) !important;
+}

@@ -1,0 +1,34 @@
+.textarea {
+  padding: 15px;
+}
+
+.invalid {
+  border: 1px solid red;
+}
+
+.errorText {
+  color: red;
+  margin-top: 4px;
+  padding-top: 5px;
+  font-size: 14px !important;
+}
+
+.requiredLabel {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.asterisk {
+  color: red;
+  margin-right: 4px;
+}
+.textarea > p {
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.boxbutton {
+  gap: 5px;
+  display: flex;
+  justify-content: flex-end;
+}

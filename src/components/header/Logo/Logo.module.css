@@ -1,0 +1,8 @@
+.logo {
+  color: var(--color_white);
+}
+.logo img {
+  width: 80px;
+  height: 30px;
+  object-fit: contain;
+}
